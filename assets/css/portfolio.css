@@ -1,0 +1,38 @@
+ /*Styling specific to portfolio.html*/
+
+#portfolio {
+	width: 610px;
+	margin: 20px 20px 20px 0;
+	background-color: #ffffff;
+	float: left;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #666666;
+}
+.gallery {
+	float:left;
+	position:relative;
+
+}
+img.tile1, img.tile3, img.tile5 {
+	margin-right: 33px;
+}
+.tile {
+	display: inline-block;
+}
+.caption {
+	display:inline-block;
+	position:absolute;
+	margin-top:145px;
+	width:285px;
+	height:35px;
+	padding-top:5px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align:center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+div.gallery>img {
+	margin-bottom:30px;
+}
