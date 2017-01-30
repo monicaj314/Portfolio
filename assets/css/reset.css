@@ -93,7 +93,6 @@ header {
 	border-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #cccccc;
-	position:static;
 }
 .name {
 	position:relative;
@@ -115,9 +114,6 @@ div#navbar > ul {
 	float:right;
 	position:relative;
 	top:5px;
-}
-ul.navbarlinks {
-	text-align: right;
 }
 ul.navbarlinks li {
 	display: inline;
@@ -183,35 +179,6 @@ footer {
 .push {
 	height: 87px;
 } 
-
-@media screen and (max-width: 980px) {
-
-	div.maxwidth {
-		width: 100% ;
-		height: 100%;
-	}
-
-/*div.about {
-		width: 50% ;
-		height: 100%;
-		
-	}*/
-
-
-	aside {
-
-	}
-
-
-
-}
-@media screen and (max-width:768px) {
-	
-}
-
-@media screen and (max-width: 640px) {
-
-}
 
 
 
