@@ -10,3 +10,23 @@
 	float: left;
 	margin-right: 20px;
 }
+
+@media screen and (max-width: 980px) {
+
+	section.maxwidth.maincontent {
+		width: 50% ;
+		height: 100%;
+		position: absolute;
+		left: 0;
+	}
+	div.about {
+		width:100%;
+	}
+
+	aside {
+
+	}
+
+
+
+}
