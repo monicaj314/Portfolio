@@ -130,6 +130,8 @@ img.tile {
 	div#navbar {
 		width:100%;
 		margin: auto;
+		padding: 0;
+		overflow:hidden;
 }
 	ul.navbarlinks {
 		text-align: center;
@@ -144,23 +146,25 @@ img.tile {
 }
 	.tile {
 		width: 95%;
-		height: 100%;
 		display: block;
-		left: ;
 }
 .caption {
 	display:inline-block;
 	position:absolute;
-	margin-top:250px;
+	margin-top:119px;
 	width: 90%;
 	height:60px;
 	padding-top:5px;
-	padding-right: 1px;
+	padding-right: 2px;
 	background-color: #4aaaa5;
 	font-size: 150%;
 	color: #ffffff;
 	text-align:center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+		aside {
+		width: 90%;
 	}
 	h2 {
 		text-align: left;
