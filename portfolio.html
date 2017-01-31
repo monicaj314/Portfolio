@@ -1,85 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-	<title>Monica</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" >
-</head>
-<body>
-<header>
-	<div class="maxwidth">
-		<div class="name">
-			<h1>Monica Jones</h1>
-		</div>
-	<div id="navbar">
-		<ul class="navbarlinks">
-			<li>
-				<a href="index.html">About</a>		
-			</li>
+/*Styling specific to contact.html*/
 
-			<li>
-				<a href="portfolio.html">Portfolio</a>
-			</li>
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-	</div>
-	</div>
-</header>
-<section class="maxwidth maincontent">
-	<div id="portfolio">
-		<h1 class="mainheading">Portfolio</h1>
-			<div class="gallery">
-			<div class="tile">
-				<div class="caption">
-				Hangman
-				</div>
-				<img src="http://lorempixel.com/output/abstract-q-g-300-200-8.jpg" width="285" height="200" class="tile" alt="Hangman project"/>
-			</div>
-			<div class="tile">
-				<div class="caption">
-				RPG Game
-				</div>
-				<img src="assets/images/rpgdice.jpg" width="285" height="200" class="tile" alt="RPG Game"/>
-			</div>
-			<div class="tile">
-				<div class="caption">
-				Trivia Game
-				</div>
-				<img src="assets/images/abstract-q-c-300-200-3.jpg" width="285" height="200" class="tile" alt="Trivia Game"/>
-			</div>
-			<div class="tile">	
-				<div class="caption">
-				Rutgers Info Widget
-				</div>
-				<img src="assets/images/abstract-q-c-300-200-10.jpg" width="285" height="200" class="tile" alt="Info Widget"/>
-			</div>
-			<div class="tile">	
-				<div class="caption">
-				Rock Paper Scissors
-				</div>
-				<img src="assets/images/rps.jpg" width="285" height="200" class="tile" alt="Rock Paper Scissors"/>
-			</div>	
-			</div>
-	</div>
-<aside>
-	<div>
-		<h2>Connect with Me</h2>
-	</div>
-	<div>
-		<a href="https://www.github.com/monicaj314"><img src= "assets/images/git.jpg" alt="Monica's github" class="thumb" /></a>
-		<a href="https://www.linkedin.com/in/monica-jones-1b368a125"><img src= "assets/images/linkedin.jpg" alt="linkedin" class="thumb" /></a>
-		<a href="http://stackoverflow.com/users/7288268/monica"><img src="assets/images/stack.jpg" alt= "stack overflow" class="thumb"/></a>
-	</div>
-</aside>
-</section>
-<div class="push">
-</div>
-<footer>
-&copy; Copyright 2017 Monica Jones
-</footer>
+#contact {
+	width: 610px;
+	margin: 20px 20px 20px 0;
+	background-color: #ffffff;
+	float: left;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+input {
+	border: 1px solid #cccccc;
+	padding:8px;
+	margin: 0 25px 5px 0;
+}
+input[type="text"] {
+	width:97%;
+}
+textarea {
+	border: 1px solid #cccccc;
+	max-width: 98%;
+}
+button {
+	background-color: #4aaaa5;
+	border:none;
+	color:#ffffff;
+	font-size:11pt;
+	text-align:center;
+	text-decoration:none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 10px 0;
+	width:100px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 980px) {
+	div.maxwidth.maincontent {
+		width: 100% ;
+		height: 100%;
+		margin-left: 30px;
+}
+	div.name {
+		margin-left: 30px;
+}
+	div#contact {
+		width: 40%;
+	}
+	ul.navbarlinks {
+		width:100%;
+		text-align: right;
+		margin-right:none;
+	}
+	ul.navbarlinks li {
+		display: inline-block;
+}
 
-</body>
-</html>
+	div.maxwidth {
+		width:100%;
+}
+	div#navbar {
+		width: 40%;
+		margin-right: 100px;
+		float:right;
+}
+
+	aside {
+	float:left;
+	margin: 20px 0 0 20px;
+}
+}
+@media screen and (max-width:768px) {
+		section.maxwidth.maincontent {
+		width: 100%;
+		margin:auto;
+		
+}
+
+	div.name {
+		margin-left: 30px;
+}
+	div#contact {
+		width: 88% ;
+		display:block;
+		overflow: auto;
+}
+	div#navbar {
+		margin-right: 50px;
+		float:right;
+}
+
+	ul.navbarlinks {
+		width:100%;
+		text-align: right;
+		margin-right:none;
+	}
+
+	aside {
+		width: 88%;
+		display:block;
+		margin:auto;
+		padding-right:30px;
+}
+	h2 {
+		text-align: left;
+	}
+}
+@media screen and (max-width: 640px) {
+		section.maxwidth.maincontent{
+		margin-left: 10px;
+}
+	div.name {
+		width:100%;
+		text-align:center;
+		margin:auto;
+}
+	div#navbar {
+		width:100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		overflow:hidden;
+}
+	ul.navbarlinks {
+		text-align: center;
+	}
+	ul.navbarlinks li {
+		display: inline-block;
+		padding-left: 50px;
+}
+	div#contact {
+		width: 88% ;
+		display:block;
+}
+		aside {
+		width: 88%;
+	}
+	h2 {
+		text-align: left;
+	}
+}
