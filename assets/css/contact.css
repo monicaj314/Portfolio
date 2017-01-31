@@ -79,7 +79,7 @@ button {
 		margin-left: 30px;
 }
 	div#contact {
-		width: 88% ;
+		width: 85% ;
 		display:block;
 		overflow: auto;
 }
@@ -95,10 +95,12 @@ button {
 	}
 
 	aside {
-		width: 88%;
+		width: 85%;
 		display:block;
-		margin:auto;
 		padding-right:30px;
+		margin-right: 5px;
+		margin-left: 0;
+
 }
 	h2 {
 		text-align: left;
@@ -128,11 +130,12 @@ button {
 		padding-left: 50px;
 }
 	div#contact {
-		width: 88% ;
+		width: 85% ;
 		display:block;
+		margin-right: 5px;
 }
 		aside {
-		width: 88%;
+		width: 85%;
 	}
 	h2 {
 		text-align: left;
