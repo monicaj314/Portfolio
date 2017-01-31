@@ -59,13 +59,13 @@ button {
 }
 	div#navbar {
 		width: 40%;
-		margin-right: 100px;
+		margin-right:50px;
 		float:right;
 }
 
 	aside {
 	float:left;
-	margin: 20px 0 0 20px;
+	margin: 20px 0 0 120px;
 }
 }
 @media screen and (max-width:768px) {
