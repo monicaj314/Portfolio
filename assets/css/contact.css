@@ -33,6 +33,11 @@ button {
 	width:100px;
 	margin-top: 10px;
 }
+	aside {
+	border-radius: 25px;
+
+}
+
 @media screen and (max-width: 980px) {
 	div.maxwidth.maincontent {
 		width: 100% ;
@@ -66,6 +71,8 @@ button {
 	aside {
 	float:left;
 	margin: 20px 0 0 120px;
+	border-radius: 25px;
+
 }
 }
 @media screen and (max-width:768px) {

@@ -2,14 +2,26 @@
 #about {
 	width: 610px;
 	margin: 20px 20px 0 0;
-	background-color: #ffffff;
+	background-color: #c8e7f7;
 	float: left;
 	padding: 20px;
+	border-radius: 35px;
+	color: #101154;
 }
 .portrait {
 	float: left;
 	margin-right: 20px;
 }
+
+h1.mainheading {
+	color: #101154;
+}
+aside {
+	border-radius: 25px;
+	background-color: #c8e7f7;
+	color: #101154;
+}
+
 @media screen and (max-width: 980px) {
 	section.maxwidth.maincontent {
 		width: 100% ;
